@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    {% block css %} {% endblock css %}
+</head>
+<body id="bd" class=" cms-index-index2 header-style2 cms-simen-home-page-v2 default cmspage">
+<div id="sns_wrapper">
+    {% include 'top_nav.html' %}
+
+    {% block header %} {% endblock header %}
+
+    {% block content %} {% endblock content%}
+
+    {% include 'partners.html' %}
+    {% block partners %} {% endblock partners %}
+
+    {% include 'footer.html' %}
+    {% block footer %} {% endblock footer %}
+
+
+    {% block js %} {% endblock js %}
+
+</div>
+</body>
+</html>
